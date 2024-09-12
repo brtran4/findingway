@@ -108,57 +108,57 @@ func JobFromAbbreviation(abbreviation string) Job {
 func (j Job) Emoji() string {
 	switch j {
 	case GNB:
-		return "<:GBR:1277726613773094943>"
+		return "<:GBR:1283573154131738685>"
 	case PLD:
-		return "<:PLD:1277726628721463401>"
+		return "<:PLD:1283573164789727302>"
 	case GLD:
 		return "<:gld:1277675881334046761>"
 	case DRK:
-		return "<:DRK:1277726599860715663>"
+		return "<:DRK:1283573142341685373>"
 	case WAR:
-		return "<:WAR:1277726641287725088>"
+		return "<:WAR:1283573176588177460>"
 	case MRD:
 		return "<:mrd:1277675899629600768>"
 	case SCH:
-		return "<:SCH:1277726703279538227>"
+		return "<:SCH:1283573266648137728>"
 	case ACN:
 		return "<:acn:1277675927374925824>"
 	case SGE:
-		return "<:SGE:1277726715988152330>"
+		return "<:SGE:1283573243474612234>"
 	case AST:
-		return "<:AST:1277726729695137936>"
+		return "<:AST:1283573232527736884>"
 	case WHM:
-		return "<:WHM:1277726691137163315>"
+		return "<:WHM:1283573282250948648>"
 	case CNJ:
 		return "<:cnj:1277675946358345788>"
 	case SAM:
-		return "<:SAM:1277726922419474482>"
+		return "<:SAM:1283573764336124058>"
 	case DRG:
-		return "<:DRG:1277726895324008532>"
+		return "<:DRG:1283573524824592416>"
 	case NIN:
-		return "<:NIN:1277726908234203196>"
+		return "<:NIN:1283573727648415774>"
 	case MNK:
-		return "<:MNK:1277726879331123221>"
+		return "<:MNK:1283573715254382612>"
 	case RPR:
-		return "<:RPR:1277726936457674763>"
+		return "<:RPR:1283573738134311014>"
 	case VPR:
-		return "<:VPR:1277726962076487680>"
+		return "<:VPR:1283577676120064050>"
 	case BRD:
-		return "<:BRD:1277727023715979358>"
+		return "<:BRD:1283573481048510575>"
 	case MCH:
-		return "<:MCH:1277727037540532385>"
+		return "<:MCH:1283573699290726460>"
 	case DNC:
-		return "<:DNC:1277727057131868261>"
+		return "<:DNC:1283573511067140170>"
 	case BLM:
-		return "<:BLM:1277727132159705200>"
+		return "<:BLM:1283573494973464607>"
 	case BLU:
-		return "<:BLU:1277727209003683850>"
+		return "<:BLU:1283576210257084498>"
 	case SMN:
-		return "<:SMN:1277727150598000742>"
+		return "<:SMN:1283573786163281992>"
 	case RDM:
-		return "<:RDM:1277727163516194907>"
+		return "<:RDM:1283573751358689301>"
 	case PCT:
-		return "<:PCT:1277727183497990288>"
+		return "<:PCT:1283577649972908032>"
 	case LNC:
 		return "<:lnc:1277675968701661217>"
 	case PUG:
@@ -170,5 +170,5 @@ func (j Job) Emoji() string {
 	case ARC:
 		return "<:arc:1277676046992408636>"
 	}
-	return "<:DOH:1278745659079524352>"
+	return "<:FSH:1283578184025116672>"
 }
